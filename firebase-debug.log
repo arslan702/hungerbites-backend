@@ -1,0 +1,212 @@
+[debug] [2023-08-15T06:42:38.743Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T06:42:38.750Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T06:42:38.751Z] CLI Version:   12.4.7
+[debug] [2023-08-15T06:42:38.752Z] Platform:      win32
+[debug] [2023-08-15T06:42:38.752Z] Node Version:  v18.17.0
+[debug] [2023-08-15T06:42:38.754Z] Time:          Tue Aug 15 2023 11:42:38 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-15T06:42:38.755Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T06:42:38.761Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-15T06:42:38.846Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T06:42:38.847Z] > authorizing via signed-in user (ezill512@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\all\awais\backend
+
+[debug] [2023-08-15T06:42:39.696Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-08-15T06:42:39.697Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T06:43:16.976Z] > refreshing access token with scopes: []
+[debug] [2023-08-15T06:43:16.978Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-15T06:43:16.978Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-15T06:43:17.684Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-15T06:43:17.685Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-15T06:43:17.712Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-15T06:43:18.598Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-08-15T06:43:18.598Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-08-15T06:51:07.244Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T06:51:07.248Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T06:51:07.249Z] CLI Version:   12.4.7
+[debug] [2023-08-15T06:51:07.249Z] Platform:      win32
+[debug] [2023-08-15T06:51:07.250Z] Node Version:  v18.17.0
+[debug] [2023-08-15T06:51:07.251Z] Time:          Tue Aug 15 2023 11:51:07 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-15T06:51:07.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T06:51:07.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T06:51:07.266Z] > authorizing via signed-in user (ezill512@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\all\awais\backend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T06:51:25.898Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-15T06:51:27.164Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-08-15T06:51:27.165Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-08-15T06:51:41.276Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T06:51:41.281Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T06:51:41.282Z] CLI Version:   12.4.7
+[debug] [2023-08-15T06:51:41.282Z] Platform:      win32
+[debug] [2023-08-15T06:51:41.283Z] Node Version:  v18.17.0
+[debug] [2023-08-15T06:51:41.285Z] Time:          Tue Aug 15 2023 11:51:41 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-15T06:51:41.285Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T06:51:41.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T06:51:41.298Z] > authorizing via signed-in user (ezill512@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\all\awais\backend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-08-15T06:58:46.143Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-08-15T06:58:46.143Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"hungerbites","name":"hungerbites"}
+[debug] [2023-08-15T06:59:00.544Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-08-15T06:59:00.545Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-08-15T06:59:05.569Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-15T16:22:14.397Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T16:22:14.404Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T16:22:14.406Z] CLI Version:   12.4.7
+[debug] [2023-08-15T16:22:14.407Z] Platform:      win32
+[debug] [2023-08-15T16:22:14.407Z] Node Version:  v18.17.0
+[debug] [2023-08-15T16:22:14.410Z] Time:          Tue Aug 15 2023 21:22:14 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-15T16:22:14.410Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T16:22:14.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T16:22:14.433Z] > authorizing via signed-in user (ezill512@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\all\awais\backend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T16:23:35.115Z] > refreshing access token with scopes: []
+[debug] [2023-08-15T16:23:35.119Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-15T16:23:35.119Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-15T16:23:35.920Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-15T16:23:35.921Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-15T16:23:35.933Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-15T16:23:36.939Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-08-15T16:23:36.939Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project hungerbites-8fa02 (hungerbites) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-08-15T16:24:21.377Z] Error: ENOTDIR: not a directory, scandir 'D:\all\awais\backend\app.js'
+    at Object.readdirSync (node:fs:1527:3)
+    at Object.createFileSync (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:55:10)
+    at Config.writeProjectFile (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:152:12)
+    at C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:141:13)
+    at async init (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-08-15T16:24:42.497Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T16:24:42.501Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-15T16:24:42.501Z] CLI Version:   12.4.7
+[debug] [2023-08-15T16:24:42.502Z] Platform:      win32
+[debug] [2023-08-15T16:24:42.502Z] Node Version:  v18.17.0
+[debug] [2023-08-15T16:24:42.504Z] Time:          Tue Aug 15 2023 21:24:42 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-15T16:24:42.504Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T16:24:42.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T16:24:42.517Z] > authorizing via signed-in user (ezill512@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\all\awais\backend
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-15T16:24:50.081Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-15T16:24:51.420Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-08-15T16:24:51.420Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project hungerbites-8fa02 (hungerbites) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-08-15T16:25:14.054Z] Error: ENOTDIR: not a directory, scandir 'D:\all\awais\backend\app.js'
+    at Object.readdirSync (node:fs:1527:3)
+    at Object.createFileSync (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:55:10)
+    at Config.writeProjectFile (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:152:12)
+    at C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:176:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:141:13)
+    at async init (C:\Users\my computer & laptop\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "kt-database.ccapggth7oe7.ap-south-1.rds.amazonaws.com",
+    "name": "ktdatabase",
+    "username": "postgres",
+    "password": "ktdb4321"
+  },
+  "server": {
+    "port": 8000
+  },
+  "logging": {
+    "level": "info"
+  }
+}
+

@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/prod-api  
+permissions:
+  - object: /home/ubuntu/prod-api
+    pattern: "**"
+    owner: ubuntu
+    group: ubuntu
+hooks:
+  BeforeInstall:
+    - location: config/BeforeInstall.sh
+      runas: ubuntu
+      timeout: 100
+  ApplicationStart:
+    - location: config/applicationstart.sh
+      runas: ubuntu
+      timeout: 100 
+      

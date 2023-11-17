@@ -1,0 +1,121 @@
+1. Users table:
+user_id (primary key)
+username
+email
+password
+address
+
+2. Restaurants table:
+restaurant_id (primary key)
+restaurant_name
+address
+contact_number
+
+3. MenuItems table:
+item_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+item_name
+description
+price
+available (boolean indicating item availability)
+
+4. Orders table:
+order_id (primary key)
+user_id (foreign key referencing Users table)
+restaurant_id (foreign key referencing Restaurants table)
+order_date
+total_amount
+status (e.g., pending, in progress, delivered)
+
+5. OrderItems table:
+order_item_id (primary key)
+order_id (foreign key referencing Orders table)
+item_id (foreign key referencing MenuItems table)
+quantity
+
+6. Reviews table:
+review_id (primary key)
+user_id (foreign key referencing Users table)
+restaurant_id (foreign key referencing Restaurants table)
+rating
+comment
+
+7. DeliveryServices table:
+service_id (primary key)
+service_name
+contact_number
+
+8. DeliveryDetails table:
+delivery_id (primary key)
+order_id (foreign key referencing Orders table)
+service_id (foreign key referencing DeliveryServices table)
+delivery_date
+delivery_status
+
+9. Staff table:
+staff_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+staff_name
+password
+role (e.g., kitchen staff, floor staff, counter staff)
+salary
+
+10. StaffWorkingHours table:
+working_hours_id (primary key)
+staff_id (foreign key referencing Staff table)
+date
+shift_start_time
+shift_end_time
+extra_working_time
+
+11. ShiftCharges table:
+charge_id (primary key)
+staff_id (foreign key referencing Staff table)
+date
+extra_working_time
+charge_amount
+
+12. ManagerAccess table:
+manager_id (foreign key referencing Staff table)
+access_type (e.g., kitchen, floor, counter)
+
+13. PartyOrders table:
+party_order_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+customer_name
+contact_number
+party_date
+status (e.g., confirmed, canceled)
+
+14. Expenses table:
+expense_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+expense_type (e.g., staff salary, ingredients cost)
+amount
+expense_date
+
+15. FoodPreparation table:
+preparation_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+item_id (foreign key referencing MenuItems table)
+preparation_date
+quantity_prepared
+
+16. Sales table:
+sale_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+item_id (foreign key referencing MenuItems table)
+sale_date
+quantity_sold
+revenue
+
+17. MonthlyProfits table:
+profit_id (primary key)
+restaurant_id (foreign key referencing Restaurants table)
+month
+year
+revenue
+expenses
+profit
+
+This adjusted schema incorporates all the mentioned points, including menu information, real-time updates,

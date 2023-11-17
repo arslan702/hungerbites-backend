@@ -1,0 +1,20 @@
+{
+  "database": {
+    "host": "karobar-2.cwvnw6sdb3et.eu-west-3.rds.amazonaws.com",
+    "name": "postgres",
+    "username": "postgres",
+    "password": "pakistan"
+  },
+  "aws":{
+    "access_key":"AKIAYOCC46IBGFXQXJYS",
+    "access_id":"PuOuOJG2B1sXUVr2fsvOwXsoGjBLcv/vKfkyDvMe",
+    "region":"eu-west-3"
+  },
+  "server": {
+    "port": 5432
+  },
+  "logging": {
+    "level": "info"
+  },
+  "JWT_SECRET": "myjwtsecret"
+}
